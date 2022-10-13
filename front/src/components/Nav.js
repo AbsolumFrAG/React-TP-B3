@@ -6,7 +6,7 @@ const Nav = () => {
   const auth = localStorage.getItem("user");
 
   const logout = async () => {
-    await localStorage.clear();
+    localStorage.clear();
     console.log("Déconnexion...");
     navigate("/login");
   };

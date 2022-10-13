@@ -7,6 +7,7 @@ const ProductList = () => {
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     getProducts();
   }, []);
@@ -62,7 +63,7 @@ const ProductList = () => {
       <table className="product-list-table">
         <tbody>
           <tr>
-            <th>S. No</th>
+            <th>N°</th>
             <th>Nom</th>
             <th>Prix</th>
             <th>Catégorie</th>

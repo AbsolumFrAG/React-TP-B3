@@ -30,6 +30,7 @@ const AddProduct = () => {
       },
     });
 
+    // eslint-disable-next-line no-unused-vars
     result = await result.json();
 
     // Ajout de la notification comme quoi le produit a été ajouté

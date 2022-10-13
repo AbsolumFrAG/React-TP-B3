@@ -34,7 +34,7 @@ const Profile = () => {
   return (
     <div>
       <form className="form-base">
-        <h1>Update Profile</h1>
+        <h1>Mise à jour du profil</h1>
         <input
           type="text"
           placeholder="Entrer le nom"

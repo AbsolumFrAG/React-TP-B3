@@ -5,13 +5,13 @@
 /* Header */
 .nav-ui {
   background-color: cadetblue;
-  margin: 0px;
-  padding: 16px 0px;
+  margin: 0;
+  padding: 16px 0;
 }
 
 .nav-ui li {
   display: inline-block;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 .nav-ui li a {
@@ -50,17 +50,17 @@
   padding: 5px 10px;
   min-width: 250px;
   min-height: 30px;
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
 .form-button-container {
   display: flex;
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
 /* Liste et Tables*/
 .product-list ul {
-  margin: 0px;
+  margin: 0;
 }
 .product-list li {
   display: inline-block;
@@ -70,7 +70,7 @@
 }
 
 .product-list-table {
-  margin: 0px auto;
+  margin: 0 auto;
   width: 90%;
   border-collapse: collapse;
   border: 2px solid cadetblue;
@@ -78,12 +78,12 @@
 
 .product-list-table tr th {
   background-color: cadetblue;
-  padding: 4px 0px;
+  padding: 4px 0;
 }
 
 .product-list-table tr td {
-  border: 0px 0px 2px 0px solid black;
-  padding: 2px 0px;
+  border: 0 0 2px 0 solid black;
+  padding: 2px 0;
   border: 1px solid cadetblue;
 }
 
@@ -161,9 +161,9 @@
 /* Erreur */
 .form-error {
   color: rgb(245, 95, 95);
-  margin: -30px 0px -15px 0px;
+  margin: -30px 0 -15px 0;
   text-align: left;
-  padding: 0px 5px;
+  padding: 0 5px;
   font-size: small;
 }
 
@@ -172,7 +172,7 @@
   padding: 10px;
   min-width: 300px;
   width: 50%;
-  margin: 10px 0px;
+  margin: 10px 0;
   border: 2px solid cadetblue;
   border-radius: 5px;
 }

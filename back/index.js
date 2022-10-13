@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const serverless = require("serverless-http");
 
 //Database
 require("./db/config");
@@ -127,3 +128,6 @@ function verifyToken(req, resp, next) {
 }
 
 app.listen(5000);
+
+module.exports = app;
+module.exports.handler = serverless(app);
