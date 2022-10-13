@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:5000/";
+const BACKEND_URL = "https://api-react-product.herokuapp.com/";
 
 const authFetch = async (url, args) => {
   if (args) {
